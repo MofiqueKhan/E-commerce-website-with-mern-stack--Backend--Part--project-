@@ -15,7 +15,7 @@ const authRouters = require("./routes/auth.router.js");
 app.use("/auth" , authRouters);
 
 const userRouters = require("./routes/user.router.js");
-app.use("/users" , userRouters);
+app.use("/api/users" , userRouters);
 module.exports=app;
 
 // testings the API from POSTMAN
